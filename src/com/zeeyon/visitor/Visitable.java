@@ -1,0 +1,5 @@
+package com.zeeyon.visitor;
+
+public interface Visitable {
+    void accept(Visitor visitor);
+}
